@@ -78,7 +78,7 @@ def ask_StudentID():
   return x
 
 
-#configuring the main method
+
 def main():
   while True:#3 command options to proceed
     command = input("Type the corresponding command:\n[Q]Quit.\n[A]Add student.\n[D]View the all student accounts in the database.\n").lower()
